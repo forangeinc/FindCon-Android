@@ -2,17 +2,13 @@ package com.mrravipandee.findcon;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class getContact extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        // hide action bar.
-        getSupportActionBar().hide();
-
+        setContentView(R.layout.activity_get_contact);
     }
 }
